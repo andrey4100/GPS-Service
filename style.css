@@ -508,6 +508,10 @@ h1 {
     gap: 20px;
   }
 
+  .hero__inner::after{
+    top: 95px;
+  }
+
   .img__logo {
     margin: 0 0px;
     width: 0vh;
