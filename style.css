@@ -250,7 +250,7 @@ h1 {
 }
 
 .repair__link::after{
-  content: url(/Project/Img/repair.svg);
+  content: url(./img/repair.svg);
   position: absolute;
   top: 10px;
   left: 10px;
@@ -266,7 +266,7 @@ h1 {
 }
 
 .checkstatus__link::after{
-  content: url(/Project/Img/checkstatus.svg);
+  content: url(./img/checkstatus.svg);
   position: absolute;
   top: 10px;
   left: 12px;
@@ -297,18 +297,19 @@ h1 {
   height: 100%;
 }
 
-.hero::after{
+.hero__inner{
+  padding-top: 25px;
+}
+
+.hero__inner::after{
   content: "";
   position: absolute;
   right: 0;
-  top: 177px;
+  top: 90px;
   width: 24px;
   height: 40px;
-  background: linear-gradient(270deg, #f8f8f8 0.04%, rgba(248, 248, 248, 0) 100%);
-}
-
-.hero__inner{
   padding-top: 25px;
+  background: linear-gradient(270deg, #f8f8f8 0.04%, rgba(248, 248, 248, 0) 100%);
 }
 
 .hero__title{
@@ -317,7 +318,7 @@ h1 {
 }
 
 .hero__title::before{
-  content: url(/Project/Img/border-title.svg);
+  content: url(./img/border-title.svg);
   position: absolute;
   left: -15px;
 }
@@ -379,7 +380,7 @@ h1 {
 }
 
 .hero__btn::before{
-  content: url(/Project/Img/checks.svg);
+  content: url(./img/checks.svg);
   position: absolute;
   left: -22px;
   top: 1px;
@@ -434,7 +435,7 @@ h1 {
   }
 
   .call__link::after{
-    content: url(/Project/Img/call.svg);
+    content: url(./img/call.svg);
     position: absolute;
     top: 10px;
     left: 10px;
@@ -450,7 +451,7 @@ h1 {
   }
 
   .chat__link::after{
-    content: url(/Project/Img/chat.svg);
+    content: url(./img/chat.svg);
     position: absolute;
     top: 10px;
     left: 10px;
@@ -467,7 +468,7 @@ h1 {
   }
 
   .profile__link::after{
-    content: url(/Project/Img/profile.svg);
+    content: url(./img/profile.svg);
     position: absolute;
     top: 10px;
     left: 10px;
@@ -536,7 +537,7 @@ h1 {
 }
 
 @media (min-width: 1120px){
-  .hero::after{
+  .hero__inner::after{
     display: none;
   }
 
@@ -546,7 +547,7 @@ h1 {
   }
 
   .header__title::before{
-    content: url(/Project/Img/border-title.svg);
+    content: url(./img/border-title.svg);
     position: absolute;
     left: -30px;
   }
