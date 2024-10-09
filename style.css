@@ -574,6 +574,9 @@ h1 {
     font-size: 16px;
     color: #1b1c21;
     display: block;
+    position: absolute;
+    left: -135px;
+    top: 10px;
   }
 
   .checkstatus__text{
@@ -582,6 +585,9 @@ h1 {
     font-size: 16px;
     color: #1b1c21;
     display: block;
+    position: absolute;
+    left: -130px;
+    top: 10px;
   }
 
   .repair__link::before {
@@ -650,8 +656,12 @@ h1 {
       margin-right: 0;
     }
 
+    .checkstatus__link{
+      margin-left: 70px;
+    }
+
     .repair__link{
-      margin-right: 15px;
+      margin-right: 70px;
     }
 
     .hero__btn {
