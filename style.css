@@ -284,10 +284,6 @@ h1 {
   display: none;
 }
 
-.slide-menu__item:last-child{
-  display: none;
-}
-
 /* section hero */
 
 .hero{
@@ -625,10 +621,6 @@ h1 {
     gap: 0px;
   }
 
-  .slide-menu__item:last-child{
-    display: block;
-  }
-
   .hero__info{
     margin-top: 0px;
   }
@@ -640,8 +632,6 @@ h1 {
     margin-left: 10px;
     }
     
-
-
     .description__text:nth-child(2){
       margin-bottom: 0;
     } 
