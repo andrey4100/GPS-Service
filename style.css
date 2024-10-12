@@ -214,14 +214,14 @@ h1 {
   left: 11px;
 }
 
-.menu__list{
+.main-nav__list{
   display: flex;
   align-items: center;
   column-gap: 15px;
   position: relative;
 }
 
-.menu__item-hidden{
+.main-nav__item-hidden{
   display: none;
 }
 
@@ -384,8 +384,8 @@ h1 {
 
 .img__logo{
   width: 100vw;
+  margin:0 -15px;
   max-width: 360px;
-  margin:0 -20px;
 }
 
 /* Медия запросы */
@@ -417,7 +417,7 @@ h1 {
     pointer-events: none;
   }
   
-  .menu__item-hidden{
+  .main-nav__item-hidden{
     display: inline-block;
   }
 
@@ -475,13 +475,13 @@ h1 {
   }
 
   .hero__title{
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
   }
 
   .hero__title::before{
-    right: 0;
-    margin-right: 250px;
+    left: 0;
+    margin-left: -25px;
   }
 
   .description__text{
@@ -565,7 +565,7 @@ h1 {
     display: none;
   }
 
-  .menu__item-hidden{
+  .main-nav__item-hidden{
     display: none;
   }
   .repair__text{
