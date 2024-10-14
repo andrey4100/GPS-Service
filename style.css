@@ -383,9 +383,10 @@ h1 {
 }
 
 .img__logo{
+  min-width: 320px;
+  max-width: 767px;
   width: 100vw;
   margin:0 -15px;
-  max-width: 360px;
 }
 
 /* Медия запросы */
